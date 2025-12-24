@@ -12,6 +12,8 @@ type SpotlightProps = {
   smallWidth?: number;
   duration?: number;
   xOffset?: number;
+  className?: string;
+
 };
 
 export const Spotlight = ({
